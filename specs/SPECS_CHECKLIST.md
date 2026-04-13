@@ -20,24 +20,25 @@
 
 ## 功能模块规范文档
 
-| #   | 模块名称       | 路径                                                               | 状态      |
-| --- | -------------- | ------------------------------------------------------------------ | --------- |
-| 001 | API 通信层     | [001-api-layer/spec.md](./001-api-layer/spec.md)                   | ✅ 已完成 |
-| 002 | 聊天功能       | [002-chat-feature/spec.md](./002-chat-feature/spec.md)             | ✅ 已完成 |
-| 003 | 消息渲染       | [003-message-rendering/spec.md](./003-message-rendering/spec.md)   | ✅ 已完成 |
-| 004 | 会话管理       | [004-session-management/spec.md](./004-session-management/spec.md) | ✅ 已完成 |
-| 005 | 设置面板       | [005-settings-panel/spec.md](./005-settings-panel/spec.md)         | ✅ 已完成 |
-| 006 | @提及系统      | [006-mention-system/spec.md](./006-mention-system/spec.md)         | ✅ 已完成 |
-| 007 | 斜杠命令       | [007-slash-command/spec.md](./007-slash-command/spec.md)           | ✅ 已完成 |
-| 008 | 终端系统       | [008-terminal-system/spec.md](./008-terminal-system/spec.md)       | ✅ 已完成 |
-| 009 | 主题系统       | [009-theme-system/spec.md](./009-theme-system/spec.md)             | ✅ 已完成 |
-| 010 | 状态管理       | [010-state-management/spec.md](./010-state-management/spec.md)     | ✅ 已完成 |
-| 011 | 文件差异查看器 | [011-file-diff-viewer/spec.md](./011-file-diff-viewer/spec.md)     | ✅ 已完成 |
-| 012 | 面板布局       | [012-pane-layout/spec.md](./012-pane-layout/spec.md)               | ✅ 已完成 |
-| 013 | 国际化         | [013-i18n-localization/spec.md](./013-i18n-localization/spec.md)   | ✅ 已完成 |
-| 014 | 桌面应用       | [014-tauri-desktop/spec.md](./014-tauri-desktop/spec.md)           | ✅ 已完成 |
-| 015 | Docker 部署    | [015-docker-deployment/spec.md](./015-docker-deployment/spec.md)   | ✅ 已完成 |
-| 016 | 路由服务       | [016-router-service/spec.md](./016-router-service/spec.md)         | ✅ 已完成 |
+| #   | 模块名称       | 路径                                                                       | 状态      |
+| --- | -------------- | -------------------------------------------------------------------------- | --------- |
+| 001 | API 通信层     | [001-api-layer/spec.md](./001-api-layer/spec.md)                           | ✅ 已完成 |
+| 002 | 聊天功能       | [002-chat-feature/spec.md](./002-chat-feature/spec.md)                     | ✅ 已完成 |
+| 003 | 消息渲染       | [003-message-rendering/spec.md](./003-message-rendering/spec.md)           | ✅ 已完成 |
+| 004 | 会话管理       | [004-session-management/spec.md](./004-session-management/spec.md)         | ✅ 已完成 |
+| 005 | 设置面板       | [005-settings-panel/spec.md](./005-settings-panel/spec.md)                 | ✅ 已完成 |
+| 006 | @提及系统      | [006-mention-system/spec.md](./006-mention-system/spec.md)                 | ✅ 已完成 |
+| 007 | 斜杠命令       | [007-slash-command/spec.md](./007-slash-command/spec.md)                   | ✅ 已完成 |
+| 008 | 终端系统       | [008-terminal-system/spec.md](./008-terminal-system/spec.md)               | ✅ 已完成 |
+| 009 | 主题系统       | [009-theme-system/spec.md](./009-theme-system/spec.md)                     | ✅ 已完成 |
+| 010 | 状态管理       | [010-state-management/spec.md](./010-state-management/spec.md)             | ✅ 已完成 |
+| 011 | 文件差异查看器 | [011-file-diff-viewer/spec.md](./011-file-diff-viewer/spec.md)             | ✅ 已完成 |
+| 012 | 面板布局       | [012-pane-layout/spec.md](./012-pane-layout/spec.md)                       | ✅ 已完成 |
+| 013 | 国际化         | [013-i18n-localization/spec.md](./013-i18n-localization/spec.md)           | ✅ 已完成 |
+| 014 | 桌面应用       | [014-tauri-desktop/spec.md](./014-tauri-desktop/spec.md)                   | ✅ 已完成 |
+| 015 | Docker 部署    | [015-docker-deployment/spec.md](./015-docker-deployment/spec.md)           | ✅ 已完成 |
+| 016 | 路由服务       | [016-router-service/spec.md](./016-router-service/spec.md)                 | ✅ 已完成 |
+| 901 | 服务快捷面板   | [901-ext-server-quick-panel/spec.md](./901-ext-server-quick-panel/spec.md) | ✅ 已完成 |
 
 ## 功能模块实施方案文档
 
@@ -60,13 +61,20 @@
 | 015 | Docker 部署    | [015-docker-deployment/plan.md](./015-docker-deployment/plan.md)   | ✅ 已完成 |
 | 016 | 路由服务       | [016-router-service/plan.md](./016-router-service/plan.md)         | ✅ 已完成 |
 
+## 扩展功能规范文档（已实现后补档）
+
+| #   | 模块名称     | spec.md                                      | plan.md                                      | tasks.md                                       | 状态      |
+| --- | ------------ | -------------------------------------------- | -------------------------------------------- | ---------------------------------------------- | --------- |
+| 901 | 服务快捷面板 | [spec](./901-ext-server-quick-panel/spec.md) | [plan](./901-ext-server-quick-panel/plan.md) | [tasks](./901-ext-server-quick-panel/tasks.md) | ✅ 已完成 |
+
 ## 统计
 
 - **项目级文档**: 11/11 已完成
 - **功能模块规范文档 (spec.md)**: 16/16 已完成
 - **功能模块实施方案 (plan.md)**: 16/16 已完成
-- **总计**: 43/43 已完成 (100%)
+- **扩展功能规范文档**: 1/1 已完成 (spec + plan + tasks)
+- **总计**: 46/46 已完成 (100%)
 
 ---
 
-_最后更新: 2026-04-12_
+_最后更新: 2026-04-13_
